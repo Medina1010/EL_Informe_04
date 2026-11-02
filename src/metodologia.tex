@@ -1,0 +1,24 @@
+\subsection*{Materiales}
+\begin{itemize}
+	\item Protoboard.
+	\item Generador de voltaje DC con puesta a tierra.
+	\item 11 resistencias \qty{1}{\kilo\ohm}$\pm 5\%$.
+	\item Multímetro.
+	\item Caimanes.
+	\item Cables de conexión delgados.
+\end{itemize}
+\subsection*{Procedimiento}
+En la práctica experimental se construyó un CDA utilizando la protoboard, resistencias
+y cables sin polaridad.
+
+Para realizar el montaje, utilizando la protoboard se colocaron las resistencias y los
+cables de conexión como se indica en la Fig. \ref{fig:circuito}, tomando $2R$ como dos
+resistencias en serie. Después, se estableción el voltaje del generador en
+$\qty{16}{\volt}$ DC y se conectó en los lugares donde están las fuentes $V_0$ en la Fig.
+\ref{fig:circuito}. Similarmente, se concectó la puesta a tierra del generador en el
+lugar de $\Ground$ en el circuito. Por último, se conectó el multímetro entre los nodos
+$d$ y $\Ground$.
+
+Posteriormente, para medir las ocho posibles salidas del circuito $(0,...,7)\unit{\volt}$,
+se encendió cada uno de los bits conectando las terminales con tres cables distintos; uno
+para cada bit, y se registró el voltaje $V_\text{out}$ del voltímetro para cada combinación.

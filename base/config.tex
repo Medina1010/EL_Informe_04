@@ -17,6 +17,14 @@
 ]{biblatex}
 \addbibresource{res/referencias.bib}
 
+\usepackage{tikz}
+\usetikzlibrary{circuits.ee.IEC}
+\newcommand\Ground{%
+	\mathbin{\text{\begin{tikzpicture}[circuit ee IEC,yscale=0.6,xscale=0.5]
+				\draw (0,2ex) to (0,0) node[ground,rotate=-90,xshift=.65ex] {};
+	\end{tikzpicture}}}%
+}
+
 \usepackage{caption}
 \captionsetup{font=small, labelfont=bf}
 \captionsetup[figure]{skip=6pt}
