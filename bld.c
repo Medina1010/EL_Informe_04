@@ -6,7 +6,7 @@
 int main(int argc, char **argv) {
 //  rebuild(argc, argv);
   cmd("tectonic main.tex");
-  cmd("cp main.pdf ~/vault/EL_Informe_03.pdf");
+  cmd("cp main.pdf ~/vault/EL_Informe_04.pdf");
   cmd("rm main.pdf");
   return 0;
 }
